@@ -7,6 +7,7 @@
     <title>Friends - Kokoa Clone</title>
   </head>
   <body>
+    <!-- $status__bar -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -21,6 +22,60 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <!-- $header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <!-- $alert -->
+    <a id="friends-display-link" href="#">
+      <i class="fas fa-info-circle"></i> 
+      Friends' Names Display 
+       <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <!-- $friends-screen -->
+    <main class="friends-screen">
+      <!-- $user-component -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://vignette.wikia.nocookie.net/ironthronerp/images/b/b5/DaenerysTargaryen.jpg/revision/latest?cb=20150812234443" 
+          alt="" class="user-component__avatar user-component__avatar--xl"/>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Danerys Targaryen</h4>
+            <!-- <h6 class="user-component__subtitle"></h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channer">
+        <div class="friends-screen__channer-header">
+          <span>Channer</span>
+          <i class="fas fa-chevron-up"></i>
+        </div>
+        <!-- $Friends__user-component -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="" 
+          alt="" class="user-component__avatar user-component__avatar--sm"/>
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Channer</h4>
+            <!-- <h6 class="user-component__subtitle"></h6> -->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2 <i class="fas fa-chevron-right fa-xs"></i></span>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <!-- $nav -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
