@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
   <body>
     <!-- $status__bar -->
@@ -24,42 +24,46 @@
     </div>
 
     <!-- $header -->
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
-          <span class="screen-header__smallDote"></span>
-        </span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
       </div>
     </header>
-    <!-- $friends-screen -->
-    <main class="main-screen">
-      <!-- $user-component -->
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://vignette.wikia.nocookie.net/ironthronerp/images/b/b5/DaenerysTargaryen.jpg/revision/latest?cb=20150812234443"
-              alt=""
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Danerys Targaryen</h4>
-              <h6 class="user-component__subtitle">where am i going now</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">22:40</span>
-            <div class="badge">2</div>
-          </div>
-        </div>
-      </a>
-    </main>
 
+    <!-- $Find-screen -->
+    <main class="main-screen">
+      <ul class="settings-List">
+        <li class="settings__setting">
+          <div class="settings-setting__column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notice</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings-setting__column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lap</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings-setting__column">
+            <i class="fas fa-info-circle"></i>
+            <span>Vesion</span>
+          </div>
+          <div class="settings-setting__column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
     <!-- $nav -->
     <nav class="nav">
       <ul class="nav__list">
@@ -71,7 +75,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notifigation badge">2</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -89,8 +93,7 @@
     </nav>
     <div id="no-mobile">
       <span
-        >Your screen is so big ㅜ-ㅜ
-        <br />
+        >Your screen is so big ㅜ-ㅜ <br />
         or Your phone is turned horizontally
       </span>
     </div>

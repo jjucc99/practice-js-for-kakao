@@ -54,3 +54,7 @@
     display: block;
     margin-bottom: 10px;
 }
+
+.user-component__subtitle i{
+    color:rgb(207, 118, 118);
+}
